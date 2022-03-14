@@ -1,0 +1,6 @@
+==libpg.pc==
+Name: libpg
+Version: VERSION
+Description: C pg library
+Cflags: -Ipg
+Libs: -lpg
