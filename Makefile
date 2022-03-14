@@ -73,7 +73,7 @@ libpg.o: libpg.c libpg.h
 	$(CC) -c $(CFLAGS) -o $@ $<
 
 libpg.c: libpg.re
-	re2c $< -o $@ -f
+	re2c $< -o $@
 
 # installing
 .PHONY: install

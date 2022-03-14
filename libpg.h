@@ -1,3 +1,5 @@
+#include <stdbool.h>
+
 typedef enum {
     PG_AUTHENTICATION,
     PG_BIND_COMPLETE,
